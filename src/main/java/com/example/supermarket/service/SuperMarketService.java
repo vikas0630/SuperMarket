@@ -28,6 +28,7 @@ public class SuperMarketService {
 
     public Product getProduct(int pid){
         // return productList
+        //this is a test comment
         return    productDAO.findById(pid).get();
     }
     public Product updateProduct(int pid, Product product){
